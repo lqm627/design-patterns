@@ -29,3 +29,5 @@ Composite Entity -- 组合实体模式
 Data Access Object -- 数据访问对象模式
 Front Controller -- 前端控制器模式
 Intercepting Filter -- 拦截过滤器模式
+Service Locator -- 服务定位器模式
+Transfer Object -- 传输对象模式
