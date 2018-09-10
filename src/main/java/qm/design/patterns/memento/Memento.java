@@ -3,11 +3,11 @@ package qm.design.patterns.memento;
 public class Memento {
     private String state;
 
-    public Memento(String state){
+    public Memento(String state) {
         this.state = state;
     }
 
-    public String getState(){
+    public String getState() {
         return state;
     }
 }

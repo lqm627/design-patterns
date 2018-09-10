@@ -2,7 +2,7 @@ package qm.design.patterns.chainOfResponsibility;
 
 public class ChainPatternDemo {
 
-    private static AbstractLogger getChainOfLoggers(){
+    private static AbstractLogger getChainOfLoggers() {
 
         AbstractLogger errorLogger = new ErrorLogger(AbstractLogger.ERROR);
         AbstractLogger fileLogger = new FileLogger(AbstractLogger.DEBUG);

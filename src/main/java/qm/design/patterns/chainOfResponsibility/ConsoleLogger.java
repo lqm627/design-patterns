@@ -2,7 +2,7 @@ package qm.design.patterns.chainOfResponsibility;
 
 public class ConsoleLogger extends AbstractLogger {
 
-    public ConsoleLogger(int level){
+    public ConsoleLogger(int level) {
         this.level = level;
     }
 

@@ -1,7 +1,7 @@
 package qm.design.patterns.serviceLocator;
 
 public class Service2 implements Service {
-    public void execute(){
+    public void execute() {
         System.out.println("Executing Service2");
     }
 

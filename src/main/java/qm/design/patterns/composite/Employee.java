@@ -10,7 +10,7 @@ public class Employee {
     private List<Employee> subordinates;
 
     //构造函数
-    public Employee(String name,String dept, int sal) {
+    public Employee(String name, String dept, int sal) {
         this.name = name;
         this.dept = dept;
         this.salary = sal;
@@ -25,13 +25,13 @@ public class Employee {
         subordinates.remove(e);
     }
 
-    public List<Employee> getSubordinates(){
+    public List<Employee> getSubordinates() {
         return subordinates;
     }
 
-    public String toString(){
-        return ("Employee :[ Name : "+ name
-                +", dept : "+ dept + ", salary :"
-                + salary+" ]");
+    public String toString() {
+        return ("Employee :[ Name : " + name
+                + ", dept : " + dept + ", salary :"
+                + salary + " ]");
     }
 }

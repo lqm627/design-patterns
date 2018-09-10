@@ -1,8 +1,8 @@
 package qm.design.patterns.observer;
 
-public class OctalObserver extends Observer{
+public class OctalObserver extends Observer {
 
-    public OctalObserver(Subject subject){
+    public OctalObserver(Subject subject) {
         this.subject = subject;
         this.subject.attach(this);
     }
@@ -10,7 +10,7 @@ public class OctalObserver extends Observer{
     @Override
     public void update() {
         //以8进制标识的字符串
-        System.out.println( "Octal String: "
-                + Integer.toOctalString( subject.getState() ) );
+        System.out.println("Octal String: "
+                + Integer.toOctalString(subject.getState()));
     }
 }

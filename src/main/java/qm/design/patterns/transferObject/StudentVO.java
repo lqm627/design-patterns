@@ -4,7 +4,7 @@ public class StudentVO {
     private String name;
     private int rollNo;
 
-    StudentVO(String name, int rollNo){
+    StudentVO(String name, int rollNo) {
         this.name = name;
         this.rollNo = rollNo;
     }

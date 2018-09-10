@@ -1,10 +1,10 @@
 package qm.design.patterns.businessDelegate;
 
 public class BusinessLookUp {
-    public BusinessService getBusinessService(String serviceType){
-        if(serviceType.equalsIgnoreCase("EJB")){
+    public BusinessService getBusinessService(String serviceType) {
+        if (serviceType.equalsIgnoreCase("EJB")) {
             return new EJBService();
-        }else {
+        } else {
             return new JMSService();
         }
     }

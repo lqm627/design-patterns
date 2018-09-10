@@ -6,7 +6,7 @@ public class Circle implements Shape {
     private int y;
     private int radius;
 
-    public Circle(String color){
+    public Circle(String color) {
         this.color = color;
     }
 
@@ -25,6 +25,6 @@ public class Circle implements Shape {
     @Override
     public void draw() {
         System.out.println("Circle: Draw() [Color : " + color
-                +", x : " + x +", y :" + y +", radius :" + radius);
+                + ", x : " + x + ", y :" + y + ", radius :" + radius);
     }
 }

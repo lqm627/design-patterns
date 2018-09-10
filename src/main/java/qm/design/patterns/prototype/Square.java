@@ -2,7 +2,7 @@ package qm.design.patterns.prototype;
 
 public class Square extends Shape {
 
-    public Square(){
+    public Square() {
         type = "Square";
     }
 

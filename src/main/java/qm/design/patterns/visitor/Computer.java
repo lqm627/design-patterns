@@ -4,8 +4,8 @@ public class Computer implements ComputerPart {
 
     ComputerPart[] parts;
 
-    public Computer(){
-        parts = new ComputerPart[] {new Mouse(), new Keyboard(), new Monitor()};
+    public Computer() {
+        parts = new ComputerPart[]{new Mouse(), new Keyboard(), new Monitor()};
     }
 
 
