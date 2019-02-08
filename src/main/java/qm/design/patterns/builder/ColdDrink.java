@@ -7,6 +7,7 @@ public abstract class ColdDrink implements Item {
         return new Bottle();
     }
 
-    @Override
-    public abstract float price();
+    //CAUTION 抽象类没实现所实现接口的方法不需要再显式地声明
+//    @Override
+//    public abstract float price();
 }
